@@ -1,0 +1,13 @@
+{
+	"case":"ads4-poincare",
+	"checks":{
+		"Riemann":true,
+		"Ricci":true,
+		"Scalar":true,
+		"Kretschmann":true,
+		"VacuumLambda":true
+	},
+	"ricci":"{{3\/z[]^2, 0, 0, 0}, {0, -3\/z[]^2, 0, 0}, {0, 0, -3\/z[]^2, 0}, {0, 0, 0, -3\/z[]^2}}",
+	"scalar":"-12\/radius^2",
+	"kretschmann":"24\/radius^4"
+}

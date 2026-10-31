@@ -1,0 +1,371 @@
+{
+  "checkedOn": "2026-10-31",
+  "method": "Pandoc JSON AST extracts the current Markdown code blocks. Each independent case executes in a fresh Wolfram kernel. Related blocks execute in their documented order; the AdS global metric fragment uses its Notebook definitions.",
+  "readerReview": "All 37 public Markdown files were read locally; reported issues were corrected and reread.",
+  "scope": "Environment code blocks and all Wolfram code blocks in chapters 02 through 10. Notebook execution, independent mathematics and graphical review have separate records.",
+  "allChecksPassed": true,
+  "totalChecks": 58,
+  "rawLogs": "Actual expressions, outputs and failed attempts are retained in maintainer working records. Machine-specific installation paths are omitted from this public report.",
+  "cases": [
+    {
+      "case": "environment",
+      "sourceMarkdown": "guides/xact/environment.md",
+      "sourceMarkdownSHA256": "9c6bb8e8e94ea493652a8b45c7ad765e7b1990015aa001e7d3ef73f4dac806aa",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "30f4ba9c1e9d4daddadd1a9d6293c6e5724291f388dee13d5c2d6fc7dbdec0b4"
+        },
+        {
+          "codeBlock": 2,
+          "codeSHA256": "213ebd1b0f539f7a852873e086dac5c045de8ffb63f10c0a905c1638a29fac28"
+        },
+        {
+          "codeBlock": 3,
+          "codeSHA256": "21c0948c77acd88623521a4e53bba24480b262c37c24bcc4647dc4bb26eae97f"
+        }
+      ],
+      "checksBoolean": {
+        "xTensorEntryExists": true,
+        "xCobaEntryExists": true,
+        "MathematicaVersionString": true,
+        "xTensorVersionDefined": true,
+        "xCobaVersionDefined": true,
+        "xPermVersionDefined": true
+      },
+      "actualOutputs": {
+        "Mathematica": "\"15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)\"",
+        "xTensor": "{\"1.3.0\", {2025, 12, 29}}",
+        "xCoba": "{\"0.8.6\", {2021, 2, 28}}",
+        "xPerm": "{\"1.2.4\", {2025, 12, 29}}"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "39fea8b615a484594100b9f4418e30c2bece1b05cf0b744d4825d70c2310835d",
+      "stdoutSHA256": "2604939889b0a5c343daae1586ebee7bdb1b0aaf7caffc2185bb97ffea8730dc",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "02-abstract-tensors",
+      "sourceMarkdown": "guides/xact/chapters/02-abstract-tensors.md",
+      "sourceMarkdownSHA256": "3c18010199665af10b15ddf43c4a4a09a751818e58b77c6e2bdf818b61854cd2",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "f0d32c4a0fd41eb502c4f44b9c5047483dd76c853cbee7449152601642eb7eaa"
+        },
+        {
+          "codeBlock": 2,
+          "codeSHA256": "a7ad0f81d0565e1e2d7cae7918d3ce1dec401c96cdff10f5c490a95721bce65e"
+        }
+      ],
+      "checksBoolean": {
+        "SymmetricAntisymmetric": true,
+        "TraceDimension": true,
+        "RaiseIndex": true,
+        "DummyRename": true
+      },
+      "actualOutputs": {
+        "algebra": "{0, 4, velocity[a], 0}"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "2b5839127c69c84abe7a1d94cfaf3cd4c662c6fdf1ac9a551b025d420e4b2004",
+      "stdoutSHA256": "2899d6394e7d2f10253d3ea4f3b544c4833e6641fd8ea1de8c3b0b4f12810cc5",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "03-covariant-derivatives",
+      "sourceMarkdown": "guides/xact/chapters/03-derivatives.md",
+      "sourceMarkdownSHA256": "19ec0643af46cdab2694e272a22d20f08bc34165c789393f63d2162838e232d4",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "f24f338e397095b7f0f11de336134920b2540b6101e74b8f415684800fd3bfe9"
+        }
+      ],
+      "checksBoolean": {
+        "MetricCompatibility": true,
+        "VectorCommutator": true,
+        "CovectorCommutator": true
+      },
+      "actualOutputs": {
+        "metricDerivative": "0",
+        "vectorCommutator": "RiemannCD[-a, -b, c, -h$2344]*vector[h$2344]",
+        "covectorCommutator": "omega[h$2350]*RiemannCD[-a, -b, -c, -h$2350]"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "73572705073c2197094ee156cbbbefe9e3356e8dc17d02918d30845850cd4a2e",
+      "stdoutSHA256": "22cedfbafe86b659e73c4676e408144e5ae5d6918bcbab9475b4d1dd614f4180",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "03-lie-derivatives",
+      "sourceMarkdown": "guides/xact/chapters/03-derivatives.md",
+      "sourceMarkdownSHA256": "19ec0643af46cdab2694e272a22d20f08bc34165c789393f63d2162838e232d4",
+      "codeBlocks": [
+        {
+          "codeBlock": 2,
+          "codeSHA256": "a1b1d580e474348ee41cf1c87a5e58b8f46ccfd6ef452812c9adc2a5bd70df50"
+        }
+      ],
+      "checksBoolean": {
+        "LieMetricFormula": true,
+        "RotationKilling": true
+      },
+      "actualOutputs": {
+        "lieMetric": "CD[-b][flow[-c]] + CD[-c][flow[-b]]",
+        "rotationLie": "{{0, 0}, {0, 0}}"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "d58d0bbaba644c46c83866560c3368070c8161677850e4f8068f31d321dee810",
+      "stdoutSHA256": "d5afea34c4aa46fbceb2bbde30f2f89036316d258a07d9daf6a25aa4c43ebac8",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "04-components",
+      "sourceMarkdown": "guides/xact/chapters/04-components.md",
+      "sourceMarkdownSHA256": "5c14c9894c58abcbd314441517918ebd569805ede549b10f2acab08b59b6ad10",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "ff2b66d282324ba21420a015ac7fa27f3dae215445283b4ed6f5c395a10380d0"
+        },
+        {
+          "codeBlock": 2,
+          "codeSHA256": "86cf7d90d0ecc0d01a4e564a5b008344803cba2af6a13e104c5439dffa3b97a9"
+        }
+      ],
+      "checksBoolean": {
+        "Gamma_r_phiphi": true,
+        "Gamma_phi_rphi": true,
+        "Gamma_phi_phir": true,
+        "RiemannZero": true,
+        "ScalarZero": true
+      },
+      "actualOutputs": {
+        "connection": "{{{0, 0}, {0, -r[]}}, {{0, r[]^(-1)}, {r[]^(-1), 0}}}",
+        "riemann": "{{{{0, 0}, {0, 0}}, {{0, 0}, {0, 0}}}, {{{0, 0}, {0, 0}}, {{0, 0}, {0, 0}}}}",
+        "scalar": "0"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "a9e30e5808f39917929ead720bedb80179c781a5078561ecb81dbba70968233b",
+      "stdoutSHA256": "463a3161ae75a625d0d217e9e3c935baaa0bc9be05de5a5046c327e9acc9dde6",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "05-sphere",
+      "sourceMarkdown": "guides/xact/chapters/05-sphere.md",
+      "sourceMarkdownSHA256": "65031c13035e7060cc361b0c01a8c636c5e158e12cbe7472c9b2a05e14653afb",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "287fb6cd54e018cc0de3b68e4cf5d7f29f6fd5716ae7d6068872b617eaa9d193"
+        }
+      ],
+      "checksBoolean": {
+        "RicciMatrix": true,
+        "RicciMetricRelation": true,
+        "Scalar": true
+      },
+      "actualOutputs": {
+        "ricci": "{{1, 0}, {0, Sin[theta[]]^2}}",
+        "scalar": "2/radius^2"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "d893ba2bd6baaf4de12d2cb2f3bc624eff3e9e25e5f97f3b6b111348ad7d2ce1",
+      "stdoutSHA256": "f1678f8d937af65defb97111e43585961dae8760a8dc1e99b0b4ed71202b882e",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "06-schwarzschild",
+      "sourceMarkdown": "guides/xact/chapters/06-schwarzschild.md",
+      "sourceMarkdownSHA256": "0903e8d276a903b1bcb003abd1862a8b3f205e1bc40d34f393336fc34862f7c7",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "54a3b34eaaf9136e71937da5fcac88109cfbda7e0045727208c489b23fc5f1a7"
+        },
+        {
+          "codeBlock": 2,
+          "codeSHA256": "c6a82d9c8792da5eb9c28882285d0a6781d238982af9e16792b31c200138c864"
+        }
+      ],
+      "checksBoolean": {
+        "RicciVacuum": true,
+        "ScalarZero": true,
+        "EinsteinVacuum": true,
+        "Kretschmann": true,
+        "EnergyConserved": true,
+        "AngularMomentumConserved": true,
+        "PolarEquation": true,
+        "AzimuthEquation": true,
+        "EquatorialPlane": true,
+        "EquatorialRadialEquation": true,
+        "RadialFirstIntegral": true,
+        "ConstraintDerivative": true
+      },
+      "actualOutputs": {
+        "ricci": "{{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}}",
+        "scalar": "0",
+        "kretschmann": "(48*mass^2)/r[]^6",
+        "einstein": "{{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}}",
+        "geodesic": "{(-2*mass*Derivative[1][radial][s]*Derivative[1][time][s])/(2*mass*radial[s] - radial[s]^2) + Derivative[2][time][s], (2*mass - radial[s])*Sin[polar[s]]^2*Derivative[1][azimuth][s]^2 + (2*mass - radial[s])*Derivative[1][polar][s]^2 + (mass*Derivative[1][radial][s]^2)/(2*mass*radial[s] - radial[s]^2) + (mass*(-2*mass + radial[s])*Derivative[1][time][s]^2)/radial[s]^3 + Derivative[2][radial][s], -(Cos[polar[s]]*Sin[polar[s]]*Derivative[1][azimuth][s]^2) + (2*Derivative[1][polar][s]*Derivative[1][radial][s])/radial[s] + Derivative[2][polar][s], (2*Derivative[1][azimuth][s]*(Cot[polar[s]]*radial[s]*Derivative[1][polar][s] + Derivative[1][radial][s]))/radial[s] + Derivative[2][azimuth][s]}",
+        "energyResidual": "0",
+        "angularMomentumResidual": "0",
+        "radialConstraint": "-energy^2 + normalizationParameter - (2*angularMomentum^2*mass)/radial[s]^3 + angularMomentum^2/radial[s]^2 - (2*mass*normalizationParameter)/radial[s] + Derivative[1][radial][s]^2",
+        "radialEquation": "(3*angularMomentum^2*mass)/radial[s]^4 - angularMomentum^2/radial[s]^3 + (mass*normalizationParameter)/radial[s]^2 + Derivative[2][radial][s]"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "3a8f57c15014dd5069aa88a1b4dec4408af3fcbe08fb174e2293275045301eca",
+      "stdoutSHA256": "018b036edda49242285cbb2de1e9f4ce9d153a6d0c5dcc0458b8ada900ac65d2",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "07-flrw",
+      "sourceMarkdown": "guides/xact/chapters/07-flrw.md",
+      "sourceMarkdownSHA256": "21feea384ed25f1856ee586e8c07c76c2c999e02c1e90aabb641f543173c35f4",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "61d6d7a0fffca9cc03fc97d0e22aad3b75821fbf5ab0ee7a5a1572dcd52444e6"
+        },
+        {
+          "codeBlock": 2,
+          "codeSHA256": "4ad53b630d3eb40b0ada897a0f042c07d9da0a958af712045f36cabbff9a5344"
+        }
+      ],
+      "checksBoolean": {
+        "FourVelocity": true,
+        "PerfectFluidComponents": true,
+        "Scalar": true,
+        "FriedmannDensity": true,
+        "FriedmannPressure": true,
+        "FriedmannAcceleration": true,
+        "SpatialIsotropy": true
+      },
+      "actualOutputs": {
+        "ricci": "{{(-3*Derivative[2][aScale][t[]])/aScale[t[]], 0, 0, 0}, {0, (2*k + 2*Derivative[1][aScale][t[]]^2 + aScale[t[]]*Derivative[2][aScale][t[]])/(1 - k*r[]^2), 0, 0}, {0, 0, r[]^2*(2*(k + Derivative[1][aScale][t[]]^2) + aScale[t[]]*Derivative[2][aScale][t[]]), 0}, {0, 0, 0, r[]^2*Sin[theta[]]^2*(2*(k + Derivative[1][aScale][t[]]^2) + aScale[t[]]*Derivative[2][aScale][t[]])}}",
+        "scalar": "(6*(k + Derivative[1][aScale][t[]]^2 + aScale[t[]]*Derivative[2][aScale][t[]]))/aScale[t[]]^2",
+        "einstein": "{{(3*(k + Derivative[1][aScale][t[]]^2))/aScale[t[]]^2, 0, 0, 0}, {0, (k + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])/(-1 + k*r[]^2), 0, 0}, {0, 0, -(r[]^2*(k + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])), 0}, {0, 0, 0, -(r[]^2*Sin[theta[]]^2*(k + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]]))}}",
+        "matter": "{{rho[t[]], 0, 0, 0}, {0, (aScale[t[]]^2*pressure[t[]])/(1 - k*r[]^2), 0, 0}, {0, 0, aScale[t[]]^2*pressure[t[]]*r[]^2, 0}, {0, 0, 0, aScale[t[]]^2*pressure[t[]]*r[]^2*Sin[theta[]]^2}}",
+        "fieldEquations": "{{-lambda - 8*GN*Pi*rho[t[]] + (3*(k + Derivative[1][aScale][t[]]^2))/aScale[t[]]^2, 0, 0, 0}, {0, (k - aScale[t[]]^2*(lambda - 8*GN*Pi*pressure[t[]]) + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])/(-1 + k*r[]^2), 0, 0}, {0, 0, -(r[]^2*(k - aScale[t[]]^2*(lambda - 8*GN*Pi*pressure[t[]]) + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])), 0}, {0, 0, 0, -(r[]^2*Sin[theta[]]^2*(k - aScale[t[]]^2*(lambda - 8*GN*Pi*pressure[t[]]) + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]]))}}",
+        "densityResidual": "-lambda - 8*GN*Pi*rho[t[]] + (3*(k + Derivative[1][aScale][t[]]^2))/aScale[t[]]^2",
+        "pressureResidual": "-((k - aScale[t[]]^2*(lambda - 8*GN*Pi*pressure[t[]]) + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])/aScale[t[]]^2)"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "1e55f56797b821b175e39cebf2fa8795b19f435bc86179172e775332cd3713b9",
+      "stdoutSHA256": "d32c04d84c0e7b1d5ca27dcf4e7df506b0026dc3fcb54a6585a21dedee2db75d",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "08-maximally-symmetric",
+      "sourceMarkdown": "guides/xact/chapters/08-maximally-symmetric.md",
+      "sourceMarkdownSHA256": "8b33120d2257921fcc0bbc9ecc9298b51fdb983a55739264f829186f18b88fe5",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "24743bb2d0bff44650a979da56e67f730f95b73bbba3b2b5c3c8e9706b0ae8ce"
+        },
+        {
+          "codeBlock": 2,
+          "codeSHA256": "2b9e17c2ad92e90974a2bf787d1d0749e623520ad8715210fd6abf22f153f330"
+        }
+      ],
+      "checksBoolean": {
+        "Ricci": true,
+        "Scalar": true,
+        "Kretschmann": true
+      },
+      "actualOutputs": {
+        "riemannModel": "-(curvature*g[-c, -b]*g[-d, -a]) + curvature*g[-c, -a]*g[-d, -b]",
+        "ricci": "-(curvature*g[-b, -d]) + curvature*dimension*g[-b, -d]",
+        "scalar": "-(curvature*dimension) + curvature*dimension^2",
+        "kretschmann": "-2*curvature^2*dimension + 2*curvature^2*dimension^2"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "e11069782f189927b83983d1841798e85716f51c59261b59af6b6c7897c2004c",
+      "stdoutSHA256": "fd1ae6aed8108d346849ec745d27266dab4624de514e2508e03aa2768706b646",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "09-ads-poincare",
+      "sourceMarkdown": "guides/xact/chapters/09-ads.md",
+      "sourceMarkdownSHA256": "dd6671b893c2cadc24674e8a3a1aeb83ca2483bb86c1b296e80fd58d7475aec2",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "f44ee4256a5b11f3f82e10a2a89506aae1456e215739d18f0d8d66ffa98db1d1"
+        }
+      ],
+      "checksBoolean": {
+        "Riemann": true,
+        "Ricci": true,
+        "Scalar": true,
+        "Kretschmann": true,
+        "EinsteinLambda": true
+      },
+      "actualOutputs": {
+        "ricci": "{{3/z[]^2, 0, 0, 0}, {0, -3/z[]^2, 0, 0}, {0, 0, -3/z[]^2, 0}, {0, 0, 0, -3/z[]^2}}",
+        "scalar": "-12/radius^2",
+        "kretschmann": "24/radius^4",
+        "einstein": "{{-3/z[]^2, 0, 0, 0}, {0, 3/z[]^2, 0, 0}, {0, 0, 3/z[]^2, 0}, {0, 0, 0, 3/z[]^2}}"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "1751ab2981829dc76121f5cf6a5e4c49df229c982a382109fef11ef5bc486802",
+      "stdoutSHA256": "aeb2d29d69ffbfbd524e799ee23478010c22419abb4105e814cb165fde7fda8f",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "09-ads-global",
+      "sourceMarkdown": "guides/xact/chapters/09-ads.md",
+      "sourceMarkdownSHA256": "dd6671b893c2cadc24674e8a3a1aeb83ca2483bb86c1b296e80fd58d7475aec2",
+      "codeBlocks": [
+        {
+          "codeBlock": 2,
+          "codeSHA256": "f238eb0543fa08b3b1134c17c911361b58e2c40916e1c6fb60079b554e7bbd2b"
+        }
+      ],
+      "checksBoolean": {
+        "MatchesGlobalNotebookMetric": true,
+        "CoordinateOrder": true,
+        "Signature": true
+      },
+      "actualOutputs": {
+        "metricMatrix": "{{-1 - r[]^2/radius^2, 0, 0, 0}, {0, (1 + r[]^2/radius^2)^(-1), 0, 0}, {0, 0, r[]^2, 0}, {0, 0, 0, r[]^2*Sin[theta[]]^2}}",
+        "notebookReferenceMetric": "{{-1 - r[]^2/radius^2, 0, 0, 0}, {0, (1 + r[]^2/radius^2)^(-1), 0, 0}, {0, 0, r[]^2, 0}, {0, 0, 0, r[]^2*Sin[theta[]]^2}}",
+        "coordinates": "{t[], r[], theta[], phi[]}"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "0b8bf3b5d7d98fe5dbb65d1253be4f09841c005a3a880dfba0297d575684e5bd",
+      "stdoutSHA256": "07a1a0f54bd0436a14f9c85438aab1ef4b2d3ffe6effb8748bae5e53445944ca",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "10-ds",
+      "sourceMarkdown": "guides/xact/chapters/10-ds.md",
+      "sourceMarkdownSHA256": "cfedda501c39457be6fd5d7d2929a56fb1a0dffbec10889543a3027254188650",
+      "codeBlocks": [
+        {
+          "codeBlock": 1,
+          "codeSHA256": "710666ea2fc74996bdc9a99488c833a280c45113be69b62674dc6841cd416e4a"
+        }
+      ],
+      "checksBoolean": {
+        "Riemann": true,
+        "Ricci": true,
+        "Scalar": true,
+        "Kretschmann": true,
+        "EinsteinLambda": true
+      },
+      "actualOutputs": {
+        "ricci": "{{(3*(-radius^2 + r[]^2))/radius^4, 0, 0, 0}, {0, 3/(radius^2 - r[]^2), 0, 0}, {0, 0, (3*r[]^2)/radius^2, 0}, {0, 0, 0, (3*r[]^2*Sin[theta[]]^2)/radius^2}}",
+        "scalar": "12/radius^2",
+        "kretschmann": "24/radius^4",
+        "einstein": "{{(3*(radius^2 - r[]^2))/radius^4, 0, 0, 0}, {0, -3/(radius^2 - r[]^2), 0, 0}, {0, 0, (-3*r[]^2)/radius^2, 0}, {0, 0, 0, (-3*r[]^2*Sin[theta[]]^2)/radius^2}}"
+      },
+      "kernelVersion": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+      "rawResultsSHA256": "8f507e35e33c45540c661d41b8db705a272ec35074f5b96aa161a478a53482c4",
+      "stdoutSHA256": "5658d174898e0fad6215cce7bb7d0bf123c3f711c9a34ee00b50dca78e2381a2",
+      "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

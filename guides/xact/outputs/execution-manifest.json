@@ -1,0 +1,545 @@
+{
+  "generatedAt": "2026-10-31T03:23:23.3856425+08:00",
+  "sourceExecutionRecordSHA256": "400024e6e41bfe5bf4d4ee5f072038b5fa89acb419a8ed8eac3da4327cf893aa",
+  "independentReviewSHA256": "e7c062c4f40b156963235b55312535f92874a9d2ad917e61a155bc2cc62b9985",
+  "method": "Two fresh kernels per case, each executing an unchanged Notebook copied into its own input directory.",
+  "rawLogs": "Original stdout and stderr are retained in maintainer working records; only their digests are published here.",
+  "cases": [
+    {
+      "case": "ads4-global",
+      "notebook": "examples/ads4-global/ads4-global.nb",
+      "currentNotebookSHA256": "93d82d9c04e0519d4b65a077893fd3d67b2b22160ba8a7ea78700420634a7d98",
+      "inputExpressionSHA256": "212d4d100491a6463bfaf158d1bf9bafec6d13c3fd589b91e8acfb958b8f934c",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032048-053-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "93d82d9c04e0519d4b65a077893fd3d67b2b22160ba8a7ea78700420634a7d98",
+          "actualResultsSHA256": "2442949601d4da74f640127a5942b7e5d5c03950762df2718aa0070978b8881f",
+          "stdoutSHA256": "bca6945ea63e4dc535b40758a64d8ba45e236c62ccf4a5a55e69311e2a0e2dbf",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        },
+        {
+          "run": "20261031-032041-593-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "93d82d9c04e0519d4b65a077893fd3d67b2b22160ba8a7ea78700420634a7d98",
+          "actualResultsSHA256": "2442949601d4da74f640127a5942b7e5d5c03950762df2718aa0070978b8881f",
+          "stdoutSHA256": "dc72ab6a388fa34a209ce46d8e1c03fdfbfd91476f3719da5b984e32c0c0b5ed",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "ads4-poincare",
+      "notebook": "examples/ads4-poincare/ads4-poincare.nb",
+      "currentNotebookSHA256": "a58eba1d4be48e2d15beb62eb4bd3f78599216c081c88349a422f8416bb76070",
+      "inputExpressionSHA256": "4b196b90376a37658b1bad5f9c6cc48dd5436cc2fbb6a0cdf54d55a5393b9e60",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032034-963-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "a58eba1d4be48e2d15beb62eb4bd3f78599216c081c88349a422f8416bb76070",
+          "actualResultsSHA256": "c0c08011b5155ab8c1567c597dc4c696d56e25261ad56a712aea5ccb43510704",
+          "stdoutSHA256": "2c33a0c9e87c3522643ecd1e31e46b650f85971e6c8f026f5fc673c699551287",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        },
+        {
+          "run": "20261031-032028-695-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "a58eba1d4be48e2d15beb62eb4bd3f78599216c081c88349a422f8416bb76070",
+          "actualResultsSHA256": "c0c08011b5155ab8c1567c597dc4c696d56e25261ad56a712aea5ccb43510704",
+          "stdoutSHA256": "0f31a5d75cf9e492312a31450b65054d0b3a915c6f57fe13da909dc867383ebb",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "ads5-global",
+      "notebook": "examples/ads5-global/ads5-global.nb",
+      "currentNotebookSHA256": "c6c53624909e86398cab7d951644225264b9f0b1bd80368276211763e5481768",
+      "inputExpressionSHA256": "a07414bc628f96b3baf390181279268a5108b43d35d55f1601e9ec9860df4791",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032119-411-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "c6c53624909e86398cab7d951644225264b9f0b1bd80368276211763e5481768",
+          "actualResultsSHA256": "da94099f6b32c88a823f652ad5da35c60033ac624fbc7a183a1143a451c90656",
+          "stdoutSHA256": "352fd921666740d7c0511acb504a3b0507d7fac6548cc6e6830d506ae6fc9b77",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        },
+        {
+          "run": "20261031-032108-839-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "c6c53624909e86398cab7d951644225264b9f0b1bd80368276211763e5481768",
+          "actualResultsSHA256": "da94099f6b32c88a823f652ad5da35c60033ac624fbc7a183a1143a451c90656",
+          "stdoutSHA256": "f7ab0048c59b2342af4bc66fb83e37238edaadc725ace5bd1235c9a8843ebbf6",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "ads5-poincare",
+      "notebook": "examples/ads5-poincare/ads5-poincare.nb",
+      "currentNotebookSHA256": "e48da3f6cf374e9c9037f802372a1db56f6d0fa8d6c9aa37c1c20b853de8ec3b",
+      "inputExpressionSHA256": "c67934e5443e5e173258fe106ce017467d29efc90f1cf33989ab4ebb8dbac871",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032101-723-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "e48da3f6cf374e9c9037f802372a1db56f6d0fa8d6c9aa37c1c20b853de8ec3b",
+          "actualResultsSHA256": "8400a1211004eb574956fa2ef2fc5f253511c878dc909ecc73808e4d02ec384d",
+          "stdoutSHA256": "bc3546679f0450d4904c89e8f325069a7e4a404319b91dab0568535b3c91dc69",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        },
+        {
+          "run": "20261031-032054-626-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "e48da3f6cf374e9c9037f802372a1db56f6d0fa8d6c9aa37c1c20b853de8ec3b",
+          "actualResultsSHA256": "8400a1211004eb574956fa2ef2fc5f253511c878dc909ecc73808e4d02ec384d",
+          "stdoutSHA256": "9a4cdf0bee902ca4c1bc5a637e63b109cc4c303c8378b3f5b8b890f881084be3",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "covariant-derivatives",
+      "notebook": "examples/covariant-derivatives/covariant-derivatives.nb",
+      "currentNotebookSHA256": "1de500b88c9d8f2bc2713643e11f82527c8dc7c1ec0beab8d638dbf0056704d8",
+      "inputExpressionSHA256": "03d3d34dd810e8bdc627fbaa7095892b9bfe691646b01804ff3fb4d9362be1da",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-031903-918-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "1de500b88c9d8f2bc2713643e11f82527c8dc7c1ec0beab8d638dbf0056704d8",
+          "actualResultsSHA256": "a0922309b0fc6cc9667ee7e56c8cc40a40a489f2fa6509b7496bdd95540dd376",
+          "stdoutSHA256": "3a3d8025731e2e7c801046f0e02dd5190ab3caf3a5c806eafe204f5c7f36e7ed",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "MetricCompatibility": true,
+            "VectorCommutator": true,
+            "CovectorCommutator": true
+          }
+        },
+        {
+          "run": "20261031-031858-088-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "1de500b88c9d8f2bc2713643e11f82527c8dc7c1ec0beab8d638dbf0056704d8",
+          "actualResultsSHA256": "a0922309b0fc6cc9667ee7e56c8cc40a40a489f2fa6509b7496bdd95540dd376",
+          "stdoutSHA256": "2515537d48093784fe2c350ca7ac301e325332d3c1450d47136721b87f1aff97",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "MetricCompatibility": true,
+            "VectorCommutator": true,
+            "CovectorCommutator": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "ds4",
+      "notebook": "examples/ds4/ds4.nb",
+      "currentNotebookSHA256": "64faa366eee800e8fdbc3b0d0b873076c12123bbc0b35b0a3df99b7e7d401bbb",
+      "inputExpressionSHA256": "47d12b8643ccbbfb3d455f5ab8dedb889bf9efa94d9676e7a78c226210fdb5e3",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032134-186-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "64faa366eee800e8fdbc3b0d0b873076c12123bbc0b35b0a3df99b7e7d401bbb",
+          "actualResultsSHA256": "a5080b15e0ef933cbe6422577e5deb3be66ffbaa2fe7e7fbd8af00ed4746cbe4",
+          "stdoutSHA256": "3a2b07a5b6137156137b8477f1859a7e71f42f5654140497b0e744212c7b54b0",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        },
+        {
+          "run": "20261031-032127-099-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "64faa366eee800e8fdbc3b0d0b873076c12123bbc0b35b0a3df99b7e7d401bbb",
+          "actualResultsSHA256": "a5080b15e0ef933cbe6422577e5deb3be66ffbaa2fe7e7fbd8af00ed4746cbe4",
+          "stdoutSHA256": "00d6ef45ef45a5d7d18bbb55de63976174d661ddf23a05ed526f273ce8d0e480",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Riemann": true,
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "flat-polar",
+      "notebook": "examples/flat-polar/flat-polar.nb",
+      "currentNotebookSHA256": "b8f0b37653c672beb982f13560c722e73aa6960138154feaa7ceaa7a58030f3a",
+      "inputExpressionSHA256": "2dc672c2b69cc56aac851ad1fdaec6fc99e9f3a2a5951f98a8c1a9a09963e545",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-031928-679-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "b8f0b37653c672beb982f13560c722e73aa6960138154feaa7ceaa7a58030f3a",
+          "actualResultsSHA256": "0d595970db17847c48241470fd073bd0ae8b96ac679589caacb49740cb2dba13",
+          "stdoutSHA256": "77906487c3f3c8d56821b30dc23d389c26ceffb91d9cc34a19ea0cfe5a0208bc",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Gamma_r_phiphi": true,
+            "Gamma_phi_rphi": true,
+            "RiemannZero": true,
+            "ScalarZero": true
+          }
+        },
+        {
+          "run": "20261031-031922-234-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "b8f0b37653c672beb982f13560c722e73aa6960138154feaa7ceaa7a58030f3a",
+          "actualResultsSHA256": "0d595970db17847c48241470fd073bd0ae8b96ac679589caacb49740cb2dba13",
+          "stdoutSHA256": "5cd0b41bfdf0e6e86ec3f40076310b644fe69cf76105adcac2be58c7774aa886",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Gamma_r_phiphi": true,
+            "Gamma_phi_rphi": true,
+            "RiemannZero": true,
+            "ScalarZero": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "flrw",
+      "notebook": "examples/flrw/flrw.nb",
+      "currentNotebookSHA256": "0b5178fabd507fc75762d62e10ece05d0af336a993c5c34434dad01dd8d330e9",
+      "inputExpressionSHA256": "0a8e71749b1f4e156eea0d01418d19522375d50498cdf08c70d7f442bf080f8a",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032010-348-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "0b5178fabd507fc75762d62e10ece05d0af336a993c5c34434dad01dd8d330e9",
+          "actualResultsSHA256": "d9000e445711344aebed522ec1b91dfee955b96ea096ba76be2e4e7e11d2772d",
+          "stdoutSHA256": "37e6e308b2eb6b74dd6a3c47b3935807252c82b9cc14b0011ddd61f6d8da2df4",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "FourVelocity": true,
+            "PerfectFluid": true,
+            "Scalar": true,
+            "FriedmannDensity": true,
+            "FriedmannPressure": true,
+            "SpatialIsotropy": true,
+            "Continuity": true
+          }
+        },
+        {
+          "run": "20261031-032003-747-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "0b5178fabd507fc75762d62e10ece05d0af336a993c5c34434dad01dd8d330e9",
+          "actualResultsSHA256": "d9000e445711344aebed522ec1b91dfee955b96ea096ba76be2e4e7e11d2772d",
+          "stdoutSHA256": "37663cb49ed7f212838a3f0d4117bce69611a3a8504b483750d030cbc27da3d4",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "FourVelocity": true,
+            "PerfectFluid": true,
+            "Scalar": true,
+            "FriedmannDensity": true,
+            "FriedmannPressure": true,
+            "SpatialIsotropy": true,
+            "Continuity": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "lie-derivatives-killing",
+      "notebook": "examples/lie-derivatives-killing/lie-derivatives-killing.nb",
+      "currentNotebookSHA256": "2d1af3d8a7749eb649d3e2238c6a8f5f7fb3a32f5fd63f78171af9249e5116d3",
+      "inputExpressionSHA256": "540d3d347563af4aefb0fd0f5eb2be851337834f3e550a82200434c94088f14b",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-031915-795-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "2d1af3d8a7749eb649d3e2238c6a8f5f7fb3a32f5fd63f78171af9249e5116d3",
+          "actualResultsSHA256": "318838c9349bc58e0630dad8ed181fac6ee27367a9a0aabc151fa276ab20f912",
+          "stdoutSHA256": "0fb5229e1d4b436a4affc17cd5b11ea9e50be9c6755f356e1c437e1716e74fbb",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "LieMetricFormula": true,
+            "RotationKilling": true
+          }
+        },
+        {
+          "run": "20261031-031909-413-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "2d1af3d8a7749eb649d3e2238c6a8f5f7fb3a32f5fd63f78171af9249e5116d3",
+          "actualResultsSHA256": "318838c9349bc58e0630dad8ed181fac6ee27367a9a0aabc151fa276ab20f912",
+          "stdoutSHA256": "e5c1e25b1ef5e42e61da04a3501861e6ff0fcc04633e2989ed8c2bff63d2b337",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "LieMetricFormula": true,
+            "RotationKilling": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "maximally-symmetric",
+      "notebook": "examples/maximally-symmetric/maximally-symmetric.nb",
+      "currentNotebookSHA256": "18058452ecc68525446f78befcd38d0ff8f459c32c34020cdf8565ac69c80c66",
+      "inputExpressionSHA256": "173bf90a173805e6d1e5ab74a6935e6a9cbfd4949f7970dd8f3cd3d26500b111",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-032022-684-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "18058452ecc68525446f78befcd38d0ff8f459c32c34020cdf8565ac69c80c66",
+          "actualResultsSHA256": "037b782acfaf2b6dd092723bdc3ce983f56521a9dde1ca3c6c743918a720301b",
+          "stdoutSHA256": "0924429a769be95d0572b4325704ac94023f3c4d7b9a30f0ae63cca198ef92b4",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        },
+        {
+          "run": "20261031-032017-205-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "18058452ecc68525446f78befcd38d0ff8f459c32c34020cdf8565ac69c80c66",
+          "actualResultsSHA256": "037b782acfaf2b6dd092723bdc3ce983f56521a9dde1ca3c6c743918a720301b",
+          "stdoutSHA256": "de246cdd3f84190fce5218196c2dbc9aa4ce819763788453611ac10b3ec1512a",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Ricci": true,
+            "Scalar": true,
+            "Kretschmann": true,
+            "VacuumLambda": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "schwarzschild",
+      "notebook": "examples/schwarzschild/schwarzschild.nb",
+      "currentNotebookSHA256": "4f169c079d522e1dc0ecf8f68d8ecd14f69c4878597d0efc851e91678b83152d",
+      "inputExpressionSHA256": "ad49bf76c0e08f839ee5728ff1827fa216d64ee2e5b3b4c3e68f22eb29945fc5",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-031957-079-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "4f169c079d522e1dc0ecf8f68d8ecd14f69c4878597d0efc851e91678b83152d",
+          "actualResultsSHA256": "2169f108b33e91845106e8fcc7ad1a0e044bd02d52345ea895d6e40d22989542",
+          "stdoutSHA256": "6cc347eb1decd5172ee4d45427414bf1b2c7a3d66fb633c7d1e7796358b4267c",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "RicciVacuum": true,
+            "ScalarZero": true,
+            "EinsteinVacuum": true,
+            "Kretschmann": true,
+            "EnergyConserved": true,
+            "AngularMomentumConserved": true,
+            "EquatorialPlane": true,
+            "RadialGeodesic": true,
+            "ConstraintDerivative": true
+          }
+        },
+        {
+          "run": "20261031-031950-426-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "4f169c079d522e1dc0ecf8f68d8ecd14f69c4878597d0efc851e91678b83152d",
+          "actualResultsSHA256": "2169f108b33e91845106e8fcc7ad1a0e044bd02d52345ea895d6e40d22989542",
+          "stdoutSHA256": "6853529b7619f21b2523ce7e8b863adbf97e72ffeac5076282466d313b62ecdb",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "RicciVacuum": true,
+            "ScalarZero": true,
+            "EinsteinVacuum": true,
+            "Kretschmann": true,
+            "EnergyConserved": true,
+            "AngularMomentumConserved": true,
+            "EquatorialPlane": true,
+            "RadialGeodesic": true,
+            "ConstraintDerivative": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "tensor-algebra",
+      "notebook": "examples/tensor-algebra/tensor-algebra.nb",
+      "currentNotebookSHA256": "76cff41a5273e6f5c3652dda5b42f4b63b370d3105313514649b71a3fbd54ab8",
+      "inputExpressionSHA256": "65f3301f0e14fd2b0ca3296b75d6f74b0971a449fb1e0bc019b1aa184dd548dc",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-031852-246-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "76cff41a5273e6f5c3652dda5b42f4b63b370d3105313514649b71a3fbd54ab8",
+          "actualResultsSHA256": "4b58edafb06c109dbf5b4068c6160be3ac7e53c7f9d0d30cd3954f44761db3c0",
+          "stdoutSHA256": "10706ad5c6bfe99bee4aa2086a8ae827a8182f09a5e0b8e65172d097a25f97c0",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "SymmetricAntisymmetric": true,
+            "TraceDimension": true,
+            "RaiseIndex": true,
+            "DummyRename": true
+          }
+        },
+        {
+          "run": "20261031-031845-970-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "76cff41a5273e6f5c3652dda5b42f4b63b370d3105313514649b71a3fbd54ab8",
+          "actualResultsSHA256": "4b58edafb06c109dbf5b4068c6160be3ac7e53c7f9d0d30cd3954f44761db3c0",
+          "stdoutSHA256": "be9bbbe668095f97ccd1fd5868d2a31158194308dde7946a44833f33495e026e",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "SymmetricAntisymmetric": true,
+            "TraceDimension": true,
+            "RaiseIndex": true,
+            "DummyRename": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    },
+    {
+      "case": "two-sphere",
+      "notebook": "examples/two-sphere/two-sphere.nb",
+      "currentNotebookSHA256": "74cd8afa2dd2fe4c4ba37b1cd44b485939687375641044b47e5b929d6c9e6c39",
+      "inputExpressionSHA256": "04f3ddd1a134bb30d5f195bfc821bd06919b316b1b5eeb3582578082bb986f27",
+      "independentlyReviewedInputMatches": true,
+      "executions": [
+        {
+          "run": "20261031-031944-300-repeat-2",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "74cd8afa2dd2fe4c4ba37b1cd44b485939687375641044b47e5b929d6c9e6c39",
+          "actualResultsSHA256": "502edd866837a58f560157e7a8852f28a85715c4718c85df2c0633ab2d1cc146",
+          "stdoutSHA256": "293b28d1b02056fec3723cac995d4951df507dbc98e31178ac92a133c4ee9e31",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Ricci": true,
+            "Scalar": true
+          }
+        },
+        {
+          "run": "20261031-031937-322-repeat-1",
+          "version": "15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+          "exitCode": 0,
+          "copiedNotebookSHA256": "74cd8afa2dd2fe4c4ba37b1cd44b485939687375641044b47e5b929d6c9e6c39",
+          "actualResultsSHA256": "502edd866837a58f560157e7a8852f28a85715c4718c85df2c0633ab2d1cc146",
+          "stdoutSHA256": "a2d621898b01a455dd2e2425ddaef4e4ec9c514b4d57834e9cd4cd5b26e8651c",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "checks": {
+            "Ricci": true,
+            "Scalar": true
+          }
+        }
+      ],
+      "guiReviewPerformedByThisProgram": false
+    }
+  ]
+}

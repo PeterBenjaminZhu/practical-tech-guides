@@ -1,0 +1,20 @@
+{
+	"case":"schwarzschild",
+	"checks":{
+		"RicciVacuum":true,
+		"ScalarZero":true,
+		"EinsteinVacuum":true,
+		"Kretschmann":true,
+		"EnergyConserved":true,
+		"AngularMomentumConserved":true,
+		"EquatorialPlane":true,
+		"RadialGeodesic":true,
+		"ConstraintDerivative":true
+	},
+	"ricci":"{{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}}",
+	"scalar":"0",
+	"kretschmann":"(48*mass^2)\/r[]^6",
+	"geodesic":"{(-2*mass*Derivative[1][radial][s]*Derivative[1][time][s])\/(2*mass*radial[s] - radial[s]^2) + Derivative[2][time][s], (2*mass - radial[s])*Sin[polar[s]]^2*Derivative[1][azimuth][s]^2 + (2*mass - radial[s])*Derivative[1][polar][s]^2 + (mass*Derivative[1][radial][s]^2)\/(2*mass*radial[s] - radial[s]^2) + (mass*(-2*mass + radial[s])*Derivative[1][time][s]^2)\/radial[s]^3 + Derivative[2][radial][s], -(Cos[polar[s]]*Sin[polar[s]]*Derivative[1][azimuth][s]^2) + (2*Derivative[1][polar][s]*Derivative[1][radial][s])\/radial[s] + Derivative[2][polar][s], (2*Derivative[1][azimuth][s]*(Cot[polar[s]]*radial[s]*Derivative[1][polar][s] + Derivative[1][radial][s]))\/radial[s] + Derivative[2][azimuth][s]}",
+	"radialConstraint":"-energy^2 + normalizationParameter - (2*angularMomentum^2*mass)\/radial[s]^3 + angularMomentum^2\/radial[s]^2 - (2*mass*normalizationParameter)\/radial[s] + Derivative[1][radial][s]^2",
+	"radialEquation":"(3*angularMomentum^2*mass)\/radial[s]^4 - angularMomentum^2\/radial[s]^3 + (mass*normalizationParameter)\/radial[s]^2 + Derivative[2][radial][s]"
+}

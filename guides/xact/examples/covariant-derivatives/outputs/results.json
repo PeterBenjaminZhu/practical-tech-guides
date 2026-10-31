@@ -1,0 +1,10 @@
+{
+	"case":"covariant-derivatives",
+	"checks":{
+		"MetricCompatibility":true,
+		"VectorCommutator":true,
+		"CovectorCommutator":true
+	},
+	"vectorCommutator":"RiemannCD[-a, -b, c, -h$2075]*vector[h$2075]",
+	"covectorCommutator":"omega[h$2081]*RiemannCD[-a, -b, -c, -h$2081]"
+}

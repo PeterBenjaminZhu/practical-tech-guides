@@ -1,0 +1,18 @@
+{
+	"case":"flrw",
+	"checks":{
+		"FourVelocity":true,
+		"PerfectFluid":true,
+		"Scalar":true,
+		"FriedmannDensity":true,
+		"FriedmannPressure":true,
+		"SpatialIsotropy":true,
+		"Continuity":true
+	},
+	"ricci":"{{(-3*Derivative[2][aScale][t[]])\/aScale[t[]], 0, 0, 0}, {0, (2*k + 2*Derivative[1][aScale][t[]]^2 + aScale[t[]]*Derivative[2][aScale][t[]])\/(1 - k*r[]^2), 0, 0}, {0, 0, r[]^2*(2*(k + Derivative[1][aScale][t[]]^2) + aScale[t[]]*Derivative[2][aScale][t[]]), 0}, {0, 0, 0, r[]^2*Sin[theta[]]^2*(2*(k + Derivative[1][aScale][t[]]^2) + aScale[t[]]*Derivative[2][aScale][t[]])}}",
+	"scalar":"(6*(k + Derivative[1][aScale][t[]]^2 + aScale[t[]]*Derivative[2][aScale][t[]]))\/aScale[t[]]^2",
+	"einstein":"{{(3*(k + Derivative[1][aScale][t[]]^2))\/aScale[t[]]^2, 0, 0, 0}, {0, (k + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])\/(-1 + k*r[]^2), 0, 0}, {0, 0, -(r[]^2*(k + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])), 0}, {0, 0, 0, -(r[]^2*Sin[theta[]]^2*(k + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]]))}}",
+	"densityResidual":"-lambda - 8*GN*Pi*rho[t[]] + (3*(k + Derivative[1][aScale][t[]]^2))\/aScale[t[]]^2",
+	"pressureResidual":"-((k - aScale[t[]]^2*(lambda - 8*GN*Pi*pressure[t[]]) + Derivative[1][aScale][t[]]^2 + 2*aScale[t[]]*Derivative[2][aScale][t[]])\/aScale[t[]]^2)",
+	"continuityResidual":"0"
+}

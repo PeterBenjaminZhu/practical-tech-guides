@@ -1,0 +1,101 @@
+{
+	"generatedAtUTC":"2026-10-30T19:23:22",
+	"wolframVersion":"15.0.0 for Microsoft Windows (64-bit) (May 19, 2026)",
+	"programSHA256":"80a8471d1cf3026cf730debef0ce4f0214a434dbd9be33f00c71a382e5e42182",
+	"allCoordinateChecksPassed":true,
+	"scope":"Exact local embedding, inverse, metric pullback and conformal-boundary checks on one chosen time lift; no claim of global topology or GUI verification.",
+	"reference":"https:\/\/arxiv.org\/abs\/hep-th\/9905111",
+	"referenceSection":"2.2.1, equations (2.20)-(2.27)",
+	"cases":[
+		{
+			"dimension":4,
+			"checks":{
+				"UnitSphereConstraint":true,
+				"UnitSphereMetric":true,
+				"PoincareQuadric":true,
+				"GlobalQuadric":true,
+				"PoincareAmbientPullback":true,
+				"GlobalAmbientPullback":true,
+				"PoincareMetricMatchesNotebook":true,
+				"ArealMetricMatchesNotebook":true,
+				"PoincareInverseAfterEmbedding":true,
+				"PoincareEmbeddingAfterInverseOnQuadric":true,
+				"CommonDomainDenominator":true,
+				"GlobalInverseZFormula":true,
+				"InverseZPositiveForPositiveAmbientSum":true,
+				"PoincareEmbeddingAfterGlobalInverse":true,
+				"DirectCommonDomainMetricPullback":true,
+				"ArealHyperbolicMetricTransformation":true,
+				"ArealRadiusInverse":true,
+				"HyperbolicRadiusInverse":true,
+				"CompactRadialMetricTransformation":true,
+				"PoincareBoundaryRepresentative":true,
+				"GlobalBoundaryRepresentative":true,
+				"CommonBoundaryCoordinateLimit":true,
+				"CommonBoundaryConformalMetric":true
+			},
+			"notebooks":[
+				{
+					"case":"ads4-poincare",
+					"sha256":"a58eba1d4be48e2d15beb62eb4bd3f78599216c081c88349a422f8416bb76070"
+				},
+				{
+					"case":"ads4-global",
+					"sha256":"93d82d9c04e0519d4b65a077893fd3d67b2b22160ba8a7ea78700420634a7d98"
+				}
+			],
+			"commonDomain":"L > 0 && rho > 0 && 0 < theta < Pi && Element[tau | rho | theta | phi, Reals] && -Pi < tau < Pi && L*Cos[tau]*Cosh[rho] + L*Cos[theta]*Sinh[rho] > 0",
+			"globalToPoincare":"{(L*Cosh[rho]*Sin[tau])\/(Cos[tau]*Cosh[rho] + Cos[theta]*Sinh[rho]), (L*Cos[phi]*Sin[theta])\/(Cos[theta] + Cos[tau]*Coth[rho]), (L*Sin[phi]*Sin[theta]*Sinh[rho])\/(Cos[tau]*Cosh[rho] + Cos[theta]*Sinh[rho]), L\/(Cos[tau]*Cosh[rho] + Cos[theta]*Sinh[rho])}",
+			"boundaryCoordinates":"{tau, theta, phi}",
+			"boundaryMapToMinkowski":"{(L*Sin[tau])\/(Cos[tau] + Cos[theta]), (L*Cos[phi]*Sin[theta])\/(Cos[tau] + Cos[theta]), (L*Sin[phi]*Sin[theta])\/(Cos[tau] + Cos[theta])}",
+			"boundaryConformalFactor":"L^2\/(Cos[tau] + Cos[theta])^2",
+			"globalBoundaryRepresentative":"{{-1, 0, 0}, {0, 1, 0}, {0, 0, Sin[theta]^2}}",
+			"poincareBoundaryRepresentative":"{{-1, 0, 0}, {0, 1, 0}, {0, 0, 1}}"
+		},
+		{
+			"dimension":5,
+			"checks":{
+				"UnitSphereConstraint":true,
+				"UnitSphereMetric":true,
+				"PoincareQuadric":true,
+				"GlobalQuadric":true,
+				"PoincareAmbientPullback":true,
+				"GlobalAmbientPullback":true,
+				"PoincareMetricMatchesNotebook":true,
+				"ArealMetricMatchesNotebook":true,
+				"PoincareInverseAfterEmbedding":true,
+				"PoincareEmbeddingAfterInverseOnQuadric":true,
+				"CommonDomainDenominator":true,
+				"GlobalInverseZFormula":true,
+				"InverseZPositiveForPositiveAmbientSum":true,
+				"PoincareEmbeddingAfterGlobalInverse":true,
+				"DirectCommonDomainMetricPullback":true,
+				"ArealHyperbolicMetricTransformation":true,
+				"ArealRadiusInverse":true,
+				"HyperbolicRadiusInverse":true,
+				"CompactRadialMetricTransformation":true,
+				"PoincareBoundaryRepresentative":true,
+				"GlobalBoundaryRepresentative":true,
+				"CommonBoundaryCoordinateLimit":true,
+				"CommonBoundaryConformalMetric":true
+			},
+			"notebooks":[
+				{
+					"case":"ads5-poincare",
+					"sha256":"e48da3f6cf374e9c9037f802372a1db56f6d0fa8d6c9aa37c1c20b853de8ec3b"
+				},
+				{
+					"case":"ads5-global",
+					"sha256":"c6c53624909e86398cab7d951644225264b9f0b1bd80368276211763e5481768"
+				}
+			],
+			"commonDomain":"L > 0 && rho > 0 && 0 < theta < Pi && Element[tau | rho | chi | theta | phi, Reals] && 0 < chi < Pi && -Pi < tau < Pi && L*Cos[tau]*Cosh[rho] + L*Cos[chi]*Sinh[rho] > 0",
+			"globalToPoincare":"{(L*Cosh[rho]*Sin[tau])\/(Cos[tau]*Cosh[rho] + Cos[chi]*Sinh[rho]), (L*Cos[phi]*Sin[chi]*Sin[theta])\/(Cos[chi] + Cos[tau]*Coth[rho]), (L*Sin[chi]*Sin[phi]*Sin[theta]*Sinh[rho])\/(Cos[tau]*Cosh[rho] + Cos[chi]*Sinh[rho]), (L*Cos[theta]*Sin[chi])\/(Cos[chi] + Cos[tau]*Coth[rho]), L\/(Cos[tau]*Cosh[rho] + Cos[chi]*Sinh[rho])}",
+			"boundaryCoordinates":"{tau, chi, theta, phi}",
+			"boundaryMapToMinkowski":"{(L*Sin[tau])\/(Cos[chi] + Cos[tau]), (L*Cos[phi]*Sin[chi]*Sin[theta])\/(Cos[chi] + Cos[tau]), (L*Sin[chi]*Sin[phi]*Sin[theta])\/(Cos[chi] + Cos[tau]), (L*Cos[theta]*Sin[chi])\/(Cos[chi] + Cos[tau])}",
+			"boundaryConformalFactor":"L^2\/(Cos[chi] + Cos[tau])^2",
+			"globalBoundaryRepresentative":"{{-1, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, Sin[chi]^2, 0}, {0, 0, 0, Sin[chi]^2*Sin[theta]^2}}",
+			"poincareBoundaryRepresentative":"{{-1, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, 1, 0}, {0, 0, 0, 1}}"
+		}
+	]
+}

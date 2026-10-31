@@ -1,0 +1,13 @@
+{
+	"case":"maximally-symmetric",
+	"checks":{
+		"Ricci":true,
+		"Scalar":true,
+		"Kretschmann":true,
+		"VacuumLambda":true
+	},
+	"ricci":"-(curvature*g[-b, -d]) + curvature*dimension*g[-b, -d]",
+	"scalar":"-(curvature*dimension) + curvature*dimension^2",
+	"kretschmann":"-2*curvature^2*dimension + 2*curvature^2*dimension^2",
+	"lambda":"(curvature*(-2 + dimension)*(-1 + dimension))\/2"
+}

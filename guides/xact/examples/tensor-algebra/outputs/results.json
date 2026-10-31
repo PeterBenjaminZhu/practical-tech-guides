@@ -1,0 +1,10 @@
+{
+	"case":"tensor-algebra",
+	"checks":{
+		"SymmetricAntisymmetric":true,
+		"TraceDimension":true,
+		"RaiseIndex":true,
+		"DummyRename":true
+	},
+	"results":"{0, 4, velocity[a], 0}"
+}

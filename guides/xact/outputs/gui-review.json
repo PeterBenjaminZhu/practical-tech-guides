@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-30",
+  "lastUpdated": "2026-10-31",
+  "application": "Mathematica 15.0.0",
+  "method": "通过文件对话框打开正式 Notebook，退出本会话 Local kernel，在干净 kernel 中执行 Evaluate Notebook，检查标题、中文、代码、关键输出和最终 checks，然后保存实际输出。",
+  "completed": 13,
+  "total": 13,
+  "cases": [
+    {"case": "flat-polar", "sha256": "B8F0B37653C672BEB982F13560C722E73AA6960138154FEAA7CEAA7A58030F3A", "result": "四项检查及汇总为 True，connection 和 curvature 输出可读。"},
+    {"case": "two-sphere", "sha256": "74CD8AFA2DD2FE4C4BA37B1CD44B485939687375641044B47E5B929D6C9E6C39", "result": "两项检查及汇总为 True，曲率输出可读。"},
+    {"case": "tensor-algebra", "sha256": "76CFF41A5273E6F5C3652DDA5B42F4B63B370D3105313514649B71A3FBD54AB8", "result": "四项检查及汇总为 True，输出上标指标可辨认。"},
+    {"case": "covariant-derivatives", "sha256": "1DE500B88C9D8F2BC2713643E11F82527C8DC7C1EC0BEAB8D638DBF0056704D8", "result": "三项检查及汇总为 True，输出指标可见，dummy index 带系统生成编号。"},
+    {"case": "lie-derivatives-killing", "sha256": "2D1AF3D8A7749EB649D3E2238C6A8F5F7FB3A32F5FD63F78171AF9249E5116D3", "result": "两项检查及汇总为 True，抽象公式与零矩阵可读。"},
+    {"case": "schwarzschild", "sha256": "4F169C079D522E1DC0ECF8F68D8ECD14F69C4878597D0EFC851E91678B83152D", "result": "九项检查及汇总为 True，geodesic 输出可读。"},
+    {"case": "flrw", "sha256": "0B5178FABD507FC75762D62E10ECE05D0AF336A993C5C34434DAD01DD8D330E9", "result": "七项检查及汇总为 True，Friedmann 输出可读。"},
+    {"case": "maximally-symmetric", "sha256": "18058452ECC68525446F78BEFCD38D0FF8F459C32C34020CDF8565AC69C80C66", "result": "四项检查及汇总为 True，抽象 curvature 输出和指标可见。"},
+    {"case": "ds4", "checkedOn": "2026-10-31", "sha256": "64FAA366EEE800E8FDBC3B0D0B873076C12123BBC0B35B0A3DF99B7E7D401BBB", "result": "五项检查及汇总为 True，逐页检查代码、说明与输出，未见错误消息。"},
+    {"case": "ads4-poincare", "checkedOn": "2026-10-31", "sha256": "A58EBA1D4BE48E2D15BEB62EB4BD3F78599216C081C88349A422F8416BB76070", "result": "五项检查及汇总为 True；完整阅读后修改文字，重新检查 L 说明并完整求值，输出可读。"},
+    {"case": "ads4-global", "checkedOn": "2026-10-31", "sha256": "93D82D9C04E0519D4B65A077893FD3D67B2B22160BA8A7EA78700420634A7D98", "result": "五项检查及汇总为 True；完整阅读后修改文字，重新检查 L 说明并完整求值，输出可读。"},
+    {"case": "ads5-poincare", "checkedOn": "2026-10-31", "sha256": "E48DA3F6CF374E9C9037F802372A1DB56F6D0FA8D6C9AA37C1C20B853DE8EC3B", "result": "五项检查及汇总为 True；逐页检查说明、代码及输出，未见错误消息。"},
+    {"case": "ads5-global", "checkedOn": "2026-10-31", "sha256": "C6C53624909E86398CAB7D951644225264B9F0B1BD80368276211763E5481768", "result": "五项检查及汇总为 True；逐页检查说明、代码及输出，未见错误消息。"}
+  ]
+}

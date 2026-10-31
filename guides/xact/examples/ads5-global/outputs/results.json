@@ -1,0 +1,13 @@
+{
+	"case":"ads5-global",
+	"checks":{
+		"Riemann":true,
+		"Ricci":true,
+		"Scalar":true,
+		"Kretschmann":true,
+		"VacuumLambda":true
+	},
+	"ricci":"{{(4*(radius^2 + r[]^2))\/radius^4, 0, 0, 0, 0}, {0, -4\/(radius^2 + r[]^2), 0, 0, 0}, {0, 0, (-4*r[]^2)\/radius^2, 0, 0}, {0, 0, 0, (-4*r[]^2*Sin[chi[]]^2)\/radius^2, 0}, {0, 0, 0, 0, (-4*r[]^2*Sin[chi[]]^2*Sin[theta[]]^2)\/radius^2}}",
+	"scalar":"-20\/radius^2",
+	"kretschmann":"40\/radius^4"
+}

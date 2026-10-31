@@ -1,0 +1,2 @@
+# Preserve exact file bytes so published SHA256 records remain reproducible.
+* -text

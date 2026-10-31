@@ -1,0 +1,11 @@
+{
+	"case":"flat-polar",
+	"checks":{
+		"Gamma_r_phiphi":true,
+		"Gamma_phi_rphi":true,
+		"RiemannZero":true,
+		"ScalarZero":true
+	},
+	"connection":"{{{0, 0}, {0, -r[]}}, {{0, r[]^(-1)}, {r[]^(-1), 0}}}",
+	"scalar":"0"
+}

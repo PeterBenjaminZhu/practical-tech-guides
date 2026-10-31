@@ -1,0 +1,10 @@
+{
+	"case":"two-sphere",
+	"checks":{
+		"Ricci":true,
+		"Scalar":true
+	},
+	"ricci":"{{1, 0}, {0, Sin[theta[]]^2}}",
+	"scalar":"2\/radius^2",
+	"riemannSample":"1"
+}

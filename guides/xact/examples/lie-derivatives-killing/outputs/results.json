@@ -1,0 +1,9 @@
+{
+	"case":"lie-derivatives-killing",
+	"checks":{
+		"LieMetricFormula":true,
+		"RotationKilling":true
+	},
+	"lieMetric":"CD[-b][flow[-c]] + CD[-c][flow[-b]]",
+	"rotationLie":"{{0, 0}, {0, 0}}"
+}
